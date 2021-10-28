@@ -22,3 +22,4 @@ jobs:
           distribution: 'adopt'
       - name: Run the Maven verify phase
         run: mvn --batch-mode --update-snapshots verify
+      - run: npm test
